@@ -1,0 +1,452 @@
+PAGE CONTENTS
+
+PAGE 1: index.html
+
+===== SECTION 1 (Home section) =====
+1. Header
+ * Logo container
+  > Image
+  > Text
+ * Navigation link container
+  > Text 1
+  > Text 2
+  > Text 3
+  > Text 4
+ * Button container
+  > Button 1
+  > Button 2
+
+2. Main content
+ * Text container
+  > Heading text
+  > Paragraph text
+  > Button container
+    - Button 1
+    - Button 2
+ * Image container
+  > image
+ * Quick info
+  > Info 1
+   - icon container
+   - text container
+    > heading text
+    > paragraph text 1
+    > paragraph text 2
+  > Info 2
+   - icon container
+   - text container
+    > heading text
+    > paragraph text 1
+    > paragraph text 2
+    > paragraph text 3
+  > Info 3
+   - icon container
+   - text container
+    > heading text
+    > paragraph text 1
+    > paragraph text 2
+    > paragraph text 3
+    > paragraph text 4
+    > paragraph text 5
+    > paragraph text 6
+
+===== SECTION 2 (Service section) =====
+1. Header
+ * Logo container
+  > Image
+  > Text
+ * Navigation link container
+  > Text 1
+  > Text 2
+  > Text 3
+  > Text 4
+ * Button container
+  > Button 1
+  > Button 2
+
+2. Paragraph text
+
+3. Heading container
+ * Heading text
+ * Button 1
+
+4. Service container
+ * Button 1
+ * Service 1
+  - Icon
+  - Heading text
+  - Paragraph text
+  - Paragraph text
+ * Service 2
+  - Icon
+  - Heading text
+  - Paragraph text
+  - Paragraph text
+ * Service 3
+  - Icon
+  - Heading text
+  - Paragraph text
+  - Paragraph text
+ * Service 4
+  - Icon
+  - Heading text
+  - Paragraph text
+  - Paragraph text
+ * Service 5
+  - Icon
+  - Heading text
+  - Paragraph text
+  - Paragraph text
+ * Service 6
+  - Icon
+  - Heading text
+  - Paragraph text
+  - Paragraph text
+ * Button 2
+
+===== SECTION 3 (About section) =====
+1. Image container
+ * image 1
+ * image 2
+
+2. Text container
+ * Paragraph text
+ * Heading text
+ * Paragraph text
+ * Profile container
+  - image
+  - text container
+   > heading text
+   > paragraph text
+ * Button 
+
+===== SECTION 4 (Contact section) =====
+1. Paragraph text
+
+2. Heading text
+
+3. Paragraph text
+
+4. Contact container
+ * Contact box 1
+  - icon 
+  - text
+ * Contact box 2
+  - icon 
+  - text
+ * Contact box 3
+  - icon 
+  - text
+ * Contact box 4
+  - icon 
+  - text
+
+===== FOOTER =====
+1. Page links container 
+ * Page link menu
+  - Heading text
+  - Page link list
+   > Link 1
+   > Link 2
+   > Link 3
+   > Link 4
+   > Link 5
+   > Link 6
+   > Link 7
+   > Link 8
+   > Link 9
+   > Link 10
+   > Link 11
+ * Contact menu
+  - Heading text
+  - Contact list
+   > Contact 1
+   > Contact 2
+   > Contact 3
+
+2. Social Media Container
+ * Logo
+  - image
+  - heading text
+ * Social media links
+  - icon 1
+  - icon 2
+ * Copy right text
+  
+
+PAGE 2: about.html
+
+===== SECTION 1 =====
+1. Paragraph text
+
+2. Heading text
+
+3. Image
+
+===== SECTION 2 =====
+1. Paragraph text
+
+2. Heading text
+
+3. Paragraph text
+
+4. Image container
+
+===== SECTION 3 =====
+1. Paragraph text
+
+2. Heading text
+
+3. Value container
+ * Value box 1
+  - icon 
+  - text container
+   > Heading text
+   > Paragraph text
+
+===== SECTION 5 =====
+1. Paragraph text
+
+2. Heading text
+
+3. Team container
+ * Team box 1
+  > image
+  > heading text
+  > paragraph text
+ * Team box 2
+  > image
+  > heading text
+  > paragraph text
+ * Team box 3
+  > image
+  > heading text
+  > paragraph text
+
+===== FOOTER =====
+1. Page links container 
+ * Page link menu
+  - Heading text
+  - Page link list
+   > Link 1
+   > Link 2
+   > Link 3
+   > Link 4
+   > Link 5
+   > Link 6
+   > Link 7
+   > Link 8
+   > Link 9
+   > Link 10
+   > Link 11
+ * Contact menu
+  - Heading text
+  - Contact list
+   > Contact 1
+   > Contact 2
+   > Contact 3
+
+2. Social Media Container
+ * Logo
+  - image
+  - heading text
+ * Social media links
+  - icon 1
+  - icon 2
+ * Copy right text
+
+
+PAGE 3: service.html 
+
+===== SECTION 1 =====
+1. Header
+ * Logo container
+  > Image
+  > Text
+ * Navigation link container
+  > Text 1
+  > Text 2
+  > Text 3
+  > Text 4
+ * Button container
+  > Button 1
+  > Button 2
+
+2. Main content
+ * Heading text
+ * Paragraph container
+  - Paragraph text
+  - Button
+ * Service container
+  - Service Box 1
+   > icon
+   > heading text
+   > paragraph text
+   > paragraph text
+  - Service Box 2
+   > icon
+   > heading text
+   > paragraph text
+   > paragraph text
+  - Service Box 3
+   > icon
+   > heading text
+   > paragraph text
+   > paragraph text
+  - Service Box 4
+   > icon
+   > heading text
+   > paragraph text
+   > paragraph text
+  - Service Box 5
+   > icon
+   > heading text
+   > paragraph text
+   > paragraph text
+  - Service Box 6
+   > icon
+   > heading text
+   > paragraph text
+   > paragraph text
+
+===== FOOTER =====
+1. Page links container 
+ * Page link menu
+  - Heading text
+  - Page link list
+   > Link 1
+   > Link 2
+   > Link 3
+   > Link 4
+   > Link 5
+   > Link 6
+   > Link 7
+   > Link 8
+   > Link 9
+   > Link 10
+   > Link 11
+ * Contact menu
+  - Heading text
+  - Contact list
+   > Contact 1
+   > Contact 2
+   > Contact 3
+
+2. Social Media Container
+ * Logo
+  - image
+  - heading text
+ * Social media links
+  - icon 1
+  - icon 2
+ * Copy right text
+
+PAGE 4: contact.html
+
+===== SECTION 1 =====
+1. Header
+ * Logo container
+  > Image
+  > Text
+ * Navigation link container
+  > Text 1
+  > Text 2
+  > Text 3
+  > Text 4
+ * Button container
+  > Button 1
+  > Button 2
+
+2. Text container
+ * Heading text
+ * Paragraph text
+ * More info container
+  - heading text
+  - box 1
+   > icon
+   > text container
+    ~ heading text
+    ~ paragraph text
+  - box 2
+   > icon
+   > text container
+    ~ heading text
+    ~ paragraph text
+  - box 3
+   > icon
+   > text container
+    ~ heading text
+    ~ paragraph text
+
+3. Form container
+ * input container
+  - input 1
+   >heading text
+   >input field
+  - input 2
+   > heading text
+   > input field
+  - input 3
+   > heading text
+   > input field
+  - input 4
+   > heading text
+   > input field
+ * button
+
+
+
+===== SECTION 2 =====
+1. Text container 
+ * Heading text
+ * Button
+
+2. Social media Container
+ * Box 1
+  - icon 
+  - heading text 
+  - paragraph text
+  - paragraph text
+ * Box 2
+  - icon 
+  - heading text 
+  - paragraph text
+  - paragraph text
+ * Box 3
+  - icon 
+  - heading text 
+  - paragraph text
+  - paragraph text
+
+  ===== FOOTER =====
+1. Page links container 
+ * Page link menu
+  - Heading text
+  - Page link list
+   > Link 1
+   > Link 2
+   > Link 3
+   > Link 4
+   > Link 5
+   > Link 6
+   > Link 7
+   > Link 8
+   > Link 9
+   > Link 10
+   > Link 11
+ * Contact menu
+  - Heading text
+  - Contact list
+   > Contact 1
+   > Contact 2
+   > Contact 3
+
+2. Social Media Container
+ * Logo
+  - image
+  - heading text
+ * Social media links
+  - icon 1
+  - icon 2
+ * Copy right text
+  

@@ -1,0 +1,46 @@
+/* CSS FILE - index.html - Desktop (1441px and above) */
+@import url('CSS FILES/desktop_1441px_index.css');
+
+/* CSS FILE - index.html - Desktop (1220px to 1440px */
+@import url('CSS FILES/desktop_1220pxTO1440px_index.css');
+
+/* CSS FILE - index.html - Desktop (1024px to 1219px) */
+@import url('CSS FILES/desktop_1219pxTO1023px_index.css');
+
+/* CSS FILE - index.html - Desktop (854px to 1023px) */
+@import url('CSS FILES/desktop_853pxTO1023px_index.css');
+
+/* CSS FILE - index.html - Tablet (768px to 853px) */
+@import url('CSS FILES/tablet_768pxTO852px_index.css');
+
+/* CSS FILE - index.html - Phone (612px to 767px) */
+@import url('CSS FILES/phone_612pxTO767px_index.css');
+
+/* CSS FILE - index.html - Phone (612px to 767px) */
+@import url('CSS FILES/phone_548pxTO611px_index.css');
+
+/* CSS FILE - index.html - Phone (548px to 611px) */
+@import url('CSS FILES/phone_548pxTO611px_index.css');
+
+/* CSS FILE - index.html - Phone (500px to 547px) */
+@import url('CSS FILES/phone_480pxTO547px_index.css');
+
+/* CSS FILE - index.html - Phone (425px to 499px) */
+@import url('CSS FILES/phone_425pxTO499px_index.css');
+
+/* CSS FILE - index.html - Phone (325px to 424px) */
+@import url('CSS FILES/phone_325pxTO424px_index.css');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit';
+    color: black;
+}
+
+
+html {
+    scroll-behavior: smooth;
+}

@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="IMAGE/birthcareLogo.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <title>Birthcare Maternity Clinic - Laguna</title>
+</head>
+<body>
+    <!-- LOADING SCREEN -->
+    <div id="loadingScreen">
+        <div class="loader"></div>
+        <p>Please wait...</p>
+    </div>
+
+    <!-- MAIN SCREEN -->
+    <div class="container" id="home" style="display: none;">
+        <!-- HEADER -->
+        <header id="mainHeader">
+            <div class="logoCon logoConAnimation" id="logo">
+                <img class="logoImg" src="IMAGE/Logo image.png" alt="">
+                <p>Birthcare Maternity Clinic - Laguna</p>
+            </div>
+            <div id="navLinkCon" class="navLinkCon navLinkConAnimation">
+                <a class="link" id="link" href="#home">Home</a>
+                <a class="link" id="link" href="#about">About</a>
+                <a class="link" id="link" href="#service">Service</a>
+                <a class="link" id="link" href="#contact">Contact</a>
+                <button id="callBtn" onclick="callNum()">
+                    <i id="callIcon" class="fa-solid fa-phone"></i>
+                    <p>0968 883 7878</p>
+                </button>
+            </div>
+            <div class="hamburgerIcon">
+                <i id="hamburgerIcon" class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+        <!-- HOME SECTION -->
+        <div class="homeSection">
+            <!-- MAIN CONTENT -->
+            <section>
+                <!-- TEXT CONTAINER -->
+                <div class="textCon">
+                    <div class="t1 textAnimation">A <span style="color: #E78D87;">Maternity Clinic</span> you can trust</div>
+                    <div class="t2 textAnimation">Providing compassionate, personalized care for mothers and families, guiding you through every step of your journey to a healthy and happy delivery.</div>
+                    <div class="btnCon btnConAnimation">
+                        <button onclick="callNum()">
+                            <i class="fa-solid fa-phone"></i>
+                            <p>Call us: 0968 883 7878</p>
+                        </button>
+                        <button id="serviceBtn">Our services</button>
+                    </div>
+                </div>
+                <!-- IMAGE CONTAINER -->
+                <div class="imageCon">
+                    <img class="imageAnimation" src="IMAGE/Home Image.png" alt="">
+                </div>
+            </section>
+        </div>
+
+        <!-- ABOUT SECTION -->
+        <div class="aboutSection" id="about">
+            <div class="textCon">
+                <div class="p1 p1Animation">KNOW MORE ABOUT US</div>
+            </div>
+            <div class="imageCon">
+                <img class="imageConImageAnimation" src="IMAGE/About image.png" alt="">
+                <div class="textBox textBoxAnimation">
+                    <p>The founding story behind our practice</p>
+                    <p>We have a team of passionate and experienced professionals who are devoted to the well-being of pets. Our staff includes trained veterinarians, groomers, trainers, and caretakers who are committed to providing the best care possible</p>
+                    <button id="connectBtn">Connect with us now!</button>
+                </div>
+            </div>
+        </div>
+        
+        <!-- SERVICE SECTION -->
+        <div class="serviceSection" id="service">
+            <p>OUR SERVICES</p>
+            <div class="serviceListContainer">
+                <!-- SERVICE 1 -->
+                <div id="service1" class="serviceBox serviceBox1">
+                    <img src="IMAGE/Prenatal and Post Natal.png" alt="">
+                    <div class="textCon">
+                        <p>Prenatal and Post Natal Checkups</p>
+                        <p>Regular medical visits during and after pregnancy to monitor the health of both mother and baby.</p>
+                    </div>
+                </div>
+                <!-- SERVICE 2 -->
+                <div id="service2" class="serviceBox serviceBox2">
+                    <div class="textCon">
+                        <p style="text-align: right;">Normal Spontaneous Delivery</p>
+                        <p style="text-align: right;">A natural vaginal delivery without medical interventions, ensuring a healthy birth process.</p>
+                    </div>
+                    <img src="IMAGE/Normal spontaneous Delivery.png" alt="">
+                </div>
+                <!-- SERVICE 3 -->
+                <div id="service3" class="serviceBox serviceBox1">
+                    <img src="IMAGE/Fam planning.png" alt="">
+                    <div class="textCon">
+                        <p>Family Planning</p>
+                        <p>Counseling and services to help individuals or couples plan pregnancies and choose the right contraception.</p>
+                    </div>
+                </div>
+                <!-- SERVICE 4 -->
+                <div id="service4" class="serviceBox serviceBox2">
+                    <div class="textCon">
+                        <p style="text-align: right;">Ear Piercing</p>
+                        <p style="text-align: right;">Safe, sterile ear piercing service for infants, using hypoallergenic materials.</p>
+                    </div>
+                    <img src="IMAGE/ear piercing.png" alt="">
+                </div>
+                <!-- SERVICE 5 -->
+                <div id="service5" class="serviceBox serviceBox1">
+                    <img src="IMAGE/Screening test.png" alt="">
+                    <div class="textCon">
+                        <p>Newborn Screening Test</p>
+                        <p>We checks for various genetic and metabolic disorders in newborns to prevent serious health problems.</p>
+                    </div>
+                </div>
+                <!-- SERVICE 6 -->
+                <div id="service6" class="serviceBox serviceBox2">
+                    <div class="textCon">
+                        <p style="text-align: right;">Newborn Hearing Test</p>
+                        <p style="text-align: right;">A quick, painless test to check a baby's hearing ability shortly after birth, ensuring early detection of any hearing issues.</p>
+                    </div>
+                    <img src="IMAGE/Hearing test.png" alt="">
+                </div>
+            </div>
+        </div>
+        
+        <!-- CONTACT SECTION -->
+        <div class="contactSection" id="contact">
+            <p>GET IN TOUCH WITH US NOW!</p>
+            <div class="contactInfoCon">
+                <div class="textCon">
+                    <!-- INFO 1-->
+                    <div class="textBox">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <p>Block 15, Lot 8, PH2 Lakesidenest Subdivision Brgy, Banay-banay Cabuyao Laguna, Cabuyao, Philippines</p>
+                    </div>
+                    <!-- INFO 2-->
+                    <div class="textBox" onclick="callNum()">
+                        <i class="fa-solid fa-phone"></i>
+                        <p>0968 883 7878</p>
+                    </div>
+                    <!-- INFO 3-->
+                    <div class="textBox" id="emailBtn">
+                        <i class="fa-solid fa-envelope"></i>
+                        <p>birthcarematernityclinic@gmail.com</p>
+                    </div>
+                    <!-- INFO 4-->
+                    <div class="textBox" id="fbBtn">
+                        <i class="fa-brands fa-facebook"></i>
+                        <p>Birthcare Maternity Clinic - Laguna</p>
+                    </div>
+
+                    <img src="IMAGE/Section 4 image.png" alt="">
+                </div>
+                <div class="mapCon">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d936.7916246207918!2d121.13629958727495!3d14.247000116146388!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sBlock%2015%2C%20Lot%208%2C%20PH2%20Lakesidenest%20Subdivision%20Brgy%2C%20Banay-banay%20Cabuyao%20Laguna%2C%20Cabuyao%2C%20Philippines!5e0!3m2!1sen!2sph!4v1729473474403!5m2!1sen!2sph" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+        
+        <!-- FOOTER -->
+        <footer>
+            <p>&copy; Birthcare Maternity Clinic Laguna - 2024</p>
+        </footer>
+    </div>
+
+    <script src="JS FILES/index.js"></script>
+</body>
+</html>
