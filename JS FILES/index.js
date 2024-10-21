@@ -84,13 +84,7 @@ hamburgerIcon.addEventListener("click", () => {
     checkState()
 })
 
-links.forEach((link) => {
-    link.addEventListener("click", () => {
-        clickCount++
 
-        checkState()
-    })
-})
 
 function checkState() {
     if (clickCount === 1) {
