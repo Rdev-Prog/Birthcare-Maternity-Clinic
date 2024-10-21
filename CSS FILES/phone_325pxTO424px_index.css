@@ -84,7 +84,7 @@
         display: flex;
         align-items: center;
         justify-content: space-between;
-        padding-inline: calc(var(--px) * 12);
+        padding-inline: calc(var(--px) * 3);
         transition-duration: 0.3s;
     }
     /* STYLE WHEN NOT IN THE HOME PAGE */
